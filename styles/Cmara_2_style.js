@@ -7,7 +7,7 @@ function categories_Cmara_2(feature, value, size, resolution, labelText,
     switch(valueStr) {
         case 'INSPECCIONADA':
             return [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 4.0 + size,
+        image: new ol.style.Circle({radius: 6.0 + size,
             displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(242,255,2,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -17,7 +17,7 @@ function categories_Cmara_2(feature, value, size, resolution, labelText,
 
         case 'NO ENCONTRADA':
             return [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 4.0 + size,
+        image: new ol.style.Circle({radius: 6.0 + size,
             displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(0,0,0,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -27,7 +27,7 @@ function categories_Cmara_2(feature, value, size, resolution, labelText,
 
         case 'SELLADA':
             return [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 4.0 + size,
+        image: new ol.style.Circle({radius: 6.0 + size,
             displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(255,187,83,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,

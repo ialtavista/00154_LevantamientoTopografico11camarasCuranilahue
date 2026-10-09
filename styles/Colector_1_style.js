@@ -7,7 +7,7 @@ function categories_Colector_1(feature, value, size, resolution, labelText,
     switch(valueStr) {
         case 'PENDIENTE':
             return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,0,0,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 0.988}),
+        stroke: new ol.style.Stroke({color: 'rgba(255,0,0,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 1.9}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
@@ -16,7 +16,7 @@ function categories_Colector_1(feature, value, size, resolution, labelText,
 
         case 'VERIFICADO':
             return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(31,255,0,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 0.988}),
+        stroke: new ol.style.Stroke({color: 'rgba(31,255,0,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 1.9}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
@@ -25,7 +25,7 @@ function categories_Colector_1(feature, value, size, resolution, labelText,
 
         case 'SEMI VERIFICADO':
             return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(228,255,0,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 1.52}),
+        stroke: new ol.style.Stroke({color: 'rgba(228,255,0,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 1.9}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
